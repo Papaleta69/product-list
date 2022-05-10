@@ -14,4 +14,4 @@ Tambien existe el apartado 'home' donde se almacenan todo los productos que se v
 desde la actividad 'producto', manejado tambien por el Patroc bloc, contando con métodos de 
 agregar, editar y eliminar. Finalmente agregar que tambien dispone de funciones multimedia 
 para agregar images o tomar foto con el fin de realizar el proceso de subir una imagen o foto
-que se aloja dentro de un setvicio de terceros.
+que se aloja dentro de un servicio de terceros.
