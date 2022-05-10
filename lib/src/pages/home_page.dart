@@ -9,8 +9,7 @@ class HomePage extends StatelessWidget {
   
   //final productosProvider = ProductosProvider();
 
- 
-  
+
   @override
   Widget build(BuildContext context) {
     
@@ -100,8 +99,8 @@ class HomePage extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
                ListTile(
-                title: Text('${producto.titulo} - ${producto.valor}'),
-                subtitle: Text(producto.id!),
+                title: Text('S/ ${producto.valor} - ${producto.titulo}'),
+                //subtitle: Text(producto.id!),
                 onTap: ()=> Navigator.pushNamed(context, 'product', arguments: producto),
             )
           ],

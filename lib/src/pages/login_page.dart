@@ -64,7 +64,7 @@ class LoginPage extends StatelessWidget {
            children: const <Widget>[
              Icon(Icons.person_pin_circle, color:Colors.white, size: 100.0),
              SizedBox(height: 10.0, width: double.infinity),
-             Text('Neyer Gutierrez Torres', style: TextStyle(color: Colors.white, fontSize: 25.0))
+             //Text('Neyer Gutierrez Torres', style: TextStyle(color: Colors.white, fontSize: 25.0))
            ],
          ),
        ),

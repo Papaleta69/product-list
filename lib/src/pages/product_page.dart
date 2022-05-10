@@ -144,8 +144,9 @@ class _ProductPageState extends State<ProductPage> {
 
   void _submit() async{
      if (!formKey.currentState!.validate()) return;
-
+        
      formKey.currentState!.save();
+     
      
      setState(() {_guardando = true;});
 
@@ -164,7 +165,11 @@ class _ProductPageState extends State<ProductPage> {
      //setState(() {_guardando = false;});
      mostrarSnackbar('Registro guardado');
 
-     Navigator.pop(context);
+     //Navigator.pop(context);
+
+     Navigator.pushNamed(context, 'home', arguments: producto);
+
+     
      
   }
 
